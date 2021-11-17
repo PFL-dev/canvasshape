@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>We love canvas</title>
+</head>
+<body>
+    <div id="colors">
+        <input type="color" name="color" id="color" value="#ffffff">
+        <span id="colors-icon">🎨</span>
+    </div>
+    <canvas id="canvas"></canvas>
+    <div id="shapes">
+        <div id="circle" class="selected"></div>
+        <div id="square"></div>
+        <div id="triangle"></div>
+        <div id="cross">✕</div>
+        <div id="heart">❤</div>
+        <div id="reset">🗑</div>
+    </div>
+    <div id="size">
+        <div>
+            <span class="size-text">Size: </span>
+            <span id="size-number"></span>
+        </div>
+        <input type="range" name="size" id="size-slider" min="10" max="80" value="50">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
